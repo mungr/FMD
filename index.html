@@ -6,64 +6,7 @@
         <title>FoxholeMapDiff</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box;}
-
-body{
-    background-color:#777;
-    color:#EEE;
-    width: 1056px;
-    margin: auto;
-}
-
-.containerTL {
-  margin: -20px 10px 0px 0px;
-  width: 350px;
-  position: absolute;
-  z-index: 10;
-}
-
-.containerBL {
-  margin: 750px 10px 0px 0px;
-  width: 350px;
-  position: absolute;
-  z-index: 10;
-}
-
-.img-comp-container {
-  position: relative;
-  margin: 10px auto;
-  height: 825px; /*should be the same height as the images*/
-  width: 1056px; /*should be the same height as the images*/
-}
-
-.img-comp-img {
-  position: absolute;
-  width: auto;
-  height: auto;
-  overflow:hidden;
-}
-
-.img-comp-img img {
-  display:block;
-  vertical-align:middle;
-}
-
-.img-comp-slider {
-  position: absolute;
-  z-index:9;
-  cursor: ew-resize;
-  /*set the appearance of the slider:*/
-  width: 100px;
-  height: 825px;
-  background-image: url('2.53_54.diff.png');
-  background-repeat: no-repeat;
-  background-size: 1056px 825px;
-  background-color: #CCC;
-  opacity: 0.8;
-}
-</style>
-
+        <link rel="stylesheet" href="style.css">
 <script>
 function initComparisons() {
   var x, i;
